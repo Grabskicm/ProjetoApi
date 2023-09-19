@@ -21,18 +21,20 @@ const CardInfo = ({ image, name, language, region, capital }: properties) => {
       shadowOpacity: 0.58,
       shadowRadius: 16.00,
 
-      elevation: 24,
+      elevation: 14,
+      flexDirection: "row", 
+      alignItems: "center", 
     },
     image: {
       width: 120,
       height: 80,
       marginLeft: 45,
-      marginTop: 80,
+      marginTop: 15,
       
     },
     textContainer: {
-      flex: 2, 
-      padding: 35,
+      flex: 1, 
+      padding: 10,
 
     },
 
