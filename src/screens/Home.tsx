@@ -24,7 +24,12 @@ type ListItemProps = {
 const ListItem = ({dataCountry}: ListItemProps) => {
   return (
     <View>
-      <CardInfo image={dataCountry.flags.png} name={dataCountry.name.common} language={dataCountry.languages[Object.keys(dataCountry.languages)[0]]} region={dataCountry.region} capital={dataCountry.capital} />
+      <CardInfo image={dataCountry.flags.png} 
+        name={dataCountry.name.common} 
+        language={dataCountry.languages[Object.keys(dataCountry.languages)[0]]} 
+        region={dataCountry.region} 
+        capital={dataCountry.capital} 
+      />
     </View>
   )
 }
