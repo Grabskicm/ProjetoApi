@@ -31,8 +31,9 @@ const CardInfo = ({ image, name, language, region, capital }: properties) => {
       
     },
     textContainer: {
-      flex: 1, 
-      padding: 25, 
+      flex: 2, 
+      padding: 35,
+
     },
 
   });
